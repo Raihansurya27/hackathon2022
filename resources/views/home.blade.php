@@ -6,7 +6,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos-delay="100">
         <div class="row">
             <div class="col-lg-8">
-                <h1>Selamat Datang di <span>Restoran Istimewa</span></h1>
+                <h1>Selamat Datang di <span>Rumah Makan Kito Basamo</span></h1>
                 <h2>Telah menyajikan makanan dan acara yang luar biasa selama 20 tahun lebih!</h2>
 
                 <div class="btns">
@@ -59,7 +59,7 @@
                         @forelse ($tipes as $tipe)
                         <li data-filter=".filter-{{$tipe->id}}" style="text-transform: capitalize">{{$tipe->nama}}</li>
                         @empty
-                        <li>tidak ada data</li>
+                        <li style="text-transform: capitalize">tidak ada data</li>
                         @endforelse
                     </ul>
                 </div>
@@ -82,9 +82,12 @@
                     </div>
                 @empty
                     <div class="col-lg-6 menu-item filter-1">
-                        <img src="{{asset('/img/menu/menu1.jpg')}}" class="menu-img" alt="">
+                        <img src="{{asset('/img/noimage.png')}}" class="menu-img" alt="">
                         <div class="menu-content">
-                            <p>Tidak ada data</p>
+                            <a href="#" style="text-transform: capitalize">Tidak ada data</a><span>Tidak ada data</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            tidak ada data
                         </div>
                     </div>
                 @endforelse
@@ -121,7 +124,7 @@
                         <div class="tab-pane mt-2" id="tab-{{$jabatan1->id}}">
                             @forelse ($karyawans as $karyawan)
                             @if($karyawan->jabatan_id == $jabatan1->id)
-                            <div class="row">
+                            <div class="row" style="margin-top: 10px">
                                 <div class="col-lg-8 details order-2 order-lg-1">
                                     <h3 style="text-transform: capitalize">{{$karyawan->nama}}</h3>
                                     <p class="fst-italic">{!!$karyawan->deskripsi!!}</p>
