@@ -19,7 +19,9 @@
 	<div class="container-fluid">
 		<div class="row ">
 			<!-- IMAGE CONTAINER BEGIN -->
-			<div class="col-lg-6 col-md-6 d-none d-md-block infinity-image-container"><img src="/img/logo3.jpg" height="100%"  ></div>
+			<div class="col-lg-6 col-md-6 d-flex justify-content-center d-md-block infinity-image-container">
+				<img src="/img/logo3.jpg" height="100%"  >
+			</div>
 			<!-- IMAGE CONTAINER END -->
 
 			<!-- FORM CONTAINER BEGIN -->
@@ -27,10 +29,10 @@
 				<div class="col-lg-9 col-md-12 col-sm-9 col-xs-12 infinity-form">
 					<!-- Company Logo -->
 					<div class="text-center mb-3 mt-5">
-						<img src="/img/logo2.png" width="150px">
+						<img src="/img/logo2.png" width="110px">
 					</div>
-					<div class="text-center mb-4">
-			      <h4>Login</h4>
+					<div class="text-center mb-4 mt-3">
+			      <h2>Login</h2>
 			    </div>
 			    <!-- Form -->
                 <form action="{{url('login')}}" method="POST" role="form" class=" form-khusus" data-aos="fade-up" enctype="multipart/form-data" data-aos-delay="100">
@@ -55,6 +57,9 @@
                                 {{$message}}
                             @enderror
                         </div>
+						<div class="text-right ">
+							<a href="reset.html" class="forget-link">Lupa password?</a>
+						  </div>
 						<div class="row mb-3">
 						<!-- Remember Checkbox -->
 			        <div class="col-auto d-flex align-items-center">
@@ -64,19 +69,14 @@
 			          </div>
 			        </div>
 			 	    </div>
+					
 			 	    <!-- Login Button -->
 			      <div class="mb-3">
-							<button type="submit" class="btn btn-block">Login</button>
+							<button type="submit" class="btn btn-block">LOG IN</button>
 						</div>
-						<div class="text-right ">
-			        <a href="reset.html" class="forget-link">Forgot password?</a>
-			      </div>
-						<div class="text-center mb-2">
-		         	<div class="text-center mb-2 text-white">or login with</div>
-
-
-						<div class="text-center mb-5 text-white">Don't have an account?
-							<a class="register-link" href="{{url('/register')}}">Register here</a>
+						
+						<div class="text-center mb-5 text-white">Belum punya akun?
+							<a class="register-link" href="{{url('/register')}}">Daftar</a>
 			     	</div>
 
 

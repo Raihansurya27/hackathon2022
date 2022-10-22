@@ -24,9 +24,9 @@
     min-height: 100vh;
 }
 
-.infinity-form h4 {
+.infinity-form h2 {
     font-weight: bold;
-    color: white;
+    color: rgb(212, 212, 212);
 }
 
 .infinity-form .form-input {
@@ -53,7 +53,7 @@
 
 .infinity-form .form-input input:focus,
 .infinity-form .form-input input:valid {
-    border: 2px solid #4285f4;
+    border: 2px solid #000;
 }
 
 .infinity-form input[type="checkbox"]:not(:checked) + label:before{
@@ -73,14 +73,14 @@
     border: none;
     cursor: pointer;
     border-radius: 20px;
-    background: linear-gradient(45deg, #4285f4, #709de8);   /*Button Color*/
+    background: linear-gradient(45deg, #db9f57, #dead72);   /*Button Color*/
     color: #fff;
     font-weight: bold;
     transition: 0.5s;
 }
 
 .infinity-form button[type="submit"]:hover {
-    background: linear-gradient(45deg, #709de8, #4285f4);   /*Button color when hover*/
+    background: linear-gradient(45deg, #dead72, #db9f57);   /*Button color when hover*/
 }
 
 .forget-link , .login-link , .register-link {
@@ -89,33 +89,6 @@
 }
 
 .forget-link:hover , .login-link:hover , .register-link:hover {
-    color: #4285f4;
+    color: #dead72;
     text-decoration: none;
-}
-
-.infinity-form .btn-social {
-    color: white;
-    border: 0;
-    display: inline-block;
-    margin: 0px;
-    margin-right: 10px;
-    font-weight: bold;
-    padding: 0px;
-    margin-bottom: 10px;
-}
-
-.infinity-form .btn-social:hover {
-    text-decoration: underline;
-}
-
-.infinity-form .btn-facebook:hover {
-    color: hsla(221, 40%, 40%, 1);
-}
-
-.infinity-form .btn-google:hover {
-    color: hsla(4, 59%, 47%, 1);
-}
-
-.infinity-form .btn-twitter:hover {
-    color: hsla(195, 78%, 54%, 1);
 }
