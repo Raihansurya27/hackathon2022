@@ -20,7 +20,7 @@
             <div class="book-a-table menu-item filter-buat">
                 <div class="section-title">
                     <h2>Masuk</h2>
-                    <p>Masuk ke Restoran Istimewa</p>
+                    <p>Masuk ke Akun</p>
                     @if (session()->has('daftar'))
                         <div class="alert alert-success" role="alert">
                         {{session('daftar')}}
@@ -47,7 +47,7 @@
                         </div>
                     </div>
                     <div class="text-center mt-2">
-                        <button type="submit" class=" mt-1">Login</button>
+                        <button type="submit" class=" mt-1">Masuk</button>
                     </div>
                     <div class="text-center mt-4">
                         <p class=" mb-0">Sudah punya akun?</p>
