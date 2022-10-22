@@ -124,7 +124,7 @@
                         <div class="tab-pane mt-2" id="tab-{{$jabatan1->id}}">
                             @forelse ($karyawans as $karyawan)
                             @if($karyawan->jabatan_id == $jabatan1->id)
-                            <div class="row">
+                            <div class="row" style="margin-top: 10px">
                                 <div class="col-lg-8 details order-2 order-lg-1">
                                     <h3 style="text-transform: capitalize">{{$karyawan->nama}}</h3>
                                     <p class="fst-italic">{!!$karyawan->deskripsi!!}</p>

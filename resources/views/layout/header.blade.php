@@ -8,14 +8,14 @@
 
         <nav id="navbar" class="navbar order-last order-lg-0">
             <ul>
-                <li><a class="nav-link scrollto" href="{{url('/home')}}">Beranda</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/home#about')}}">Tentang</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/home#menu')}}">Menu</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/home#specials')}}">Staff</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/home#events')}}">Acara</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/home#testimonials')}}">Testimoni</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/home#book-a-table')}}">Booking Meja</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/home#contact')}}">Kontak</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/')}}">Beranda</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/#about')}}">Tentang</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/#menu')}}">Menu</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/#specials')}}">Staff</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/#events')}}">Acara</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/#testimonials')}}">Testimoni</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/#book-a-table')}}">Booking Meja</a></li>
+                <li><a class="nav-link scrollto" href="{{url('/#contact')}}">Kontak</a></li>
                 @auth
                     @if (auth()->user()->peran->nama == 'Admin')
                     <li><a class="nav-link scrollto" href="{{('/dashboard')}}">Dashboard</a></li>
