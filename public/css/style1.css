@@ -10,7 +10,7 @@
 }
 
 .infinity-form-container{
-    background: #31335d;
+    background: #282129;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -53,7 +53,7 @@
 
 .infinity-form .form-input input:focus,
 .infinity-form .form-input input:valid {
-    border: 2px solid #4285f4;   
+    border: 2px solid #4285f4;
 }
 
 .infinity-form input[type="checkbox"]:not(:checked) + label:before{

@@ -19,7 +19,7 @@
 	<div class="container-fluid">
 		<div class="row ">
 			<!-- IMAGE CONTAINER BEGIN -->
-			<div class="col-lg-6 col-md-6 d-none d-md-block infinity-image-container"></div>
+			<div class="col-lg-6 col-md-6 d-none d-md-block infinity-image-container"><img src="/img/logo3.jpg" height="100%"  ></div>
 			<!-- IMAGE CONTAINER END -->
 
 			<!-- FORM CONTAINER BEGIN -->
@@ -30,7 +30,7 @@
 						<img src="/img/logo2.png" width="150px">
 					</div>
 					<div class="text-center mb-4">
-			      <h4>Login into your account</h4>
+			      <h4>Login</h4>
 			    </div>
 			    <!-- Form -->
                 <form action="{{url('login')}}" method="POST" role="form" class=" form-khusus" data-aos="fade-up" enctype="multipart/form-data" data-aos-delay="100">
