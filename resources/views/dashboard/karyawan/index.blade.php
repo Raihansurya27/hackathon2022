@@ -1,9 +1,8 @@
 @extends('dashboard.layout.main')
 
 @section('container')
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Data Karyawan</h1>
-</div>
+
+
 <section class="content-header mb-5 mt-2 border-bottom">
     <div class="container-fluid">
         <div class="row mb-2">
@@ -25,9 +24,11 @@
         </div>
     @endif
 
-    <p>
+    <div class="mb-5">
         <a href="{{url('/karyawan/create')}}" class=" btn btn-primary">Tambah Karyawan Baru</a>
-    </p>
+    </div>
+
+
     <table class=" table table-borderless">
         <thead class=" table-dark">
             <tr>

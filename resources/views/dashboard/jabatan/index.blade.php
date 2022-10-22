@@ -43,7 +43,7 @@
                 <td>{{$loop->iteration}}</td>
                 <td>{{$jabatan->nama}}</td>
                 <td>
-                    <a href="{{url('/jabatan/'.$jabatan->id.'/edit')}}" class="btn btn-warning btn-sm">Edit</a>
+                    <a href="{{url('/jabatan/'.$jabatan->id.'/edit')}}" class="btn btn-success btn-sm">Edit</a>
                     <form action="{{url('/jabatan/'.$jabatan->id)}}" class="d-inline" method="POST">
                         @method('DELETE')
                         @csrf
