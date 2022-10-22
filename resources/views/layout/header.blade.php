@@ -1,5 +1,5 @@
 <!-- ======= Header ======= -->
-<header id="header" class="fixed-top d-flex align-items-cente">
+<header id="header" class="fixed-top d-flex align-items-center">
     <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
 
         <h1 class="logo me-auto me-lg-0"><a href="{{url('/home')}}">Rumah Makan Kito Basamo</a></h1>
