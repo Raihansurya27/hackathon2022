@@ -1,9 +1,9 @@
 @extends('layout.main')
-@section('title','Beranda - Restoran Istimewa')
+@section('title','Rumah Makan Kito Basamo')
 @section('content')
   <!-- ======= Hero Section ======= -->
 <section id="hero" class="d-flex align-items-center">
-    <div class="container position-relative text-center text-lg-start" data-aos-delay="100">
+    <div class="container position-relative text-center text-lg-start os-init aos-animate" data-aos="zoom-in" data-aos-delay="100">
         <div class="row">
             <div class="col-lg-8">
                 <h1>Selamat Datang di <span>Rumah Makan Kito Basamo</span></h1>
@@ -21,7 +21,7 @@
 <main id="main">
     <!-- ======= About Section ======= -->
     <section id="about" class="about">
-        <div class="container">
+        <div class="container aos-init aos-animate" data-aos="fade-up">
             <div class="row">
                 <div class="col-lg-6 order-1 order-lg-2">
                     <div class="about-img">
