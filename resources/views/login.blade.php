@@ -104,6 +104,7 @@
 			    </div>
 			    <!-- Form -->
                 <form action="{{url('login')}}" method="POST" role="form" class=" form-khusus" data-aos="fade-up" enctype="multipart/form-data" data-aos-delay="100">
+                    @csrf
 						<!-- Input Box -->
 						<div class="form-input">
 							<span><i class="fa fa-envelope-o"></i></span>
