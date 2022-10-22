@@ -39,7 +39,7 @@
 <body>
 
   <!-- ======= Top Bar ======= -->
-    <div id="topbar" class="d-flex align-items-center fixed-top">
+    <div id="topbar" class="d-flex bg-dark align-items-center fixed-top">
         <div class="container d-flex justify-content-center justify-content-md-between">
 
             <div class="contact-info d-flex align-items-center">
@@ -82,7 +82,7 @@
 
                     <div class="text-center">
                         <div class="footer-info">
-                            <h3>Restoran Istimewa</h3>
+                            <h3>Restoran Kito Basamo</h3>
                             <p>
                                 2 x 11 Kayutanam <br>
                                 Padang Pariaman, Sumatera Barat<br><br>
@@ -102,7 +102,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>Restoran Istimewa</span></strong>. All Rights Reserved
+                &copy; Copyright <strong><span>Restoran Kito Basamo</span></strong>. All Rights Reserved
             </div>
             <div class="credits">
                 Desain oleh <a href="https://bootstrapmade.com/">BootstrapMade</a>, Diedit oleh Muhammad Raihan surya
