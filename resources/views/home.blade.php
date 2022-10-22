@@ -59,7 +59,7 @@
                         @forelse ($tipes as $tipe)
                         <li data-filter=".filter-{{$tipe->id}}" style="text-transform: capitalize">{{$tipe->nama}}</li>
                         @empty
-                        <li>tidak ada data</li>
+                        <li style="text-transform: capitalize">tidak ada data</li>
                         @endforelse
                     </ul>
                 </div>
@@ -82,9 +82,12 @@
                     </div>
                 @empty
                     <div class="col-lg-6 menu-item filter-1">
-                        <img src="{{asset('/img/menu/menu1.jpg')}}" class="menu-img" alt="">
+                        <img src="{{asset('/img/noimage.png')}}" class="menu-img" alt="">
                         <div class="menu-content">
-                            <p>Tidak ada data</p>
+                            <a href="#" style="text-transform: capitalize">Tidak ada data</a><span>Tidak ada data</span>
+                        </div>
+                        <div class="menu-ingredients">
+                            tidak ada data
                         </div>
                     </div>
                 @endforelse
