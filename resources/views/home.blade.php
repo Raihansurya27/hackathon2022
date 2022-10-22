@@ -6,7 +6,7 @@
     <div class="container position-relative text-center text-lg-start" data-aos-delay="100">
         <div class="row">
             <div class="col-lg-8">
-                <h1>Selamat Datang di <span>Restoran Istimewa</span></h1>
+                <h1>Selamat Datang di <span>Rumah Makan Kito Basamo</span></h1>
                 <h2>Telah menyajikan makanan dan acara yang luar biasa selama 20 tahun lebih!</h2>
 
                 <div class="btns">

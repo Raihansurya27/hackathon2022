@@ -35,7 +35,7 @@ class LoginController extends Controller
         // return back()->withErrors([
         //     'email' => 'The provided credentials do not match our records.',
         // ])->onlyInput('email');
-        return back()->with('errorLogin','Email or password Salah !');
+        return back()->with('errorLogin','Email atau password Salah !');
     }
 
     public function logout(Request $request){
@@ -66,7 +66,6 @@ class LoginController extends Controller
         }else{
             $validatedData['picture'] = null;
         }
-        $validatedData['email_verified_at'] = now();
         $validatedData['remember_token'] = Str::random(10);
         $validatedData['password'] = Hash::make($request->password);
         User::create($validatedData);
