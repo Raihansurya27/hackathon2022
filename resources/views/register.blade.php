@@ -62,7 +62,7 @@
                             @error('picture')
                                 {{$message}}
                             @enderror
-                        </div>asdas
+                        </div>
                     </div>
                     <div class="text-center"><button type="submit" class="btn btn-block">Daftar</button></div>
                 </form>

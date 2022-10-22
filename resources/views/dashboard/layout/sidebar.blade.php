@@ -20,12 +20,6 @@
             </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link {{Request::is('acara') ? 'active' : ''}}" href="{{url('acara')}}">
-            <span data-feather="file"></span>
-            Acara
-          </a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link {{Request::is('jabatan') ? 'active' : ''}}" href="{{url('jabatan')}}">
             <span data-feather="layers"></span>
             Jabatan
@@ -41,12 +35,6 @@
             <a class="nav-link {{Request::is('user') ? 'active' : ''}}" href="{{url('user')}}">
               <span data-feather="user"></span>
               User
-            </a>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link {{Request::is('peran') ? 'active' : ''}}" href="{{url('peran')}}">
-              <span data-feather="layers"></span>
-              Peran
             </a>
         </li>
         <li class="nav-item">
