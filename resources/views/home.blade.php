@@ -82,7 +82,7 @@
                     </div>
                 @empty
                     <div class="col-lg-6 menu-item filter-1">
-                        <img src="{{asset('/img/noimage.png')}}" class="menu-img" alt="">
+                        <img src="{{asset('/img/noimage.png')}}" class="menu-img" height="70px" width ="40px"alt="">
                         <div class="menu-content">
                             <a href="#" style="text-transform: capitalize">Tidak ada data</a><span>Tidak ada data</span>
                         </div>
