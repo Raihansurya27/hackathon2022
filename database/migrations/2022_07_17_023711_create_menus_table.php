@@ -19,6 +19,7 @@ return new class extends Migration
             $table->foreignId('tipemenu_id');
             $table->double('harga');
             $table->string('gambar')->nullable();
+            $table->integer('stock');
             $table->longText('deskripsi');
             $table->timestamps();
         });

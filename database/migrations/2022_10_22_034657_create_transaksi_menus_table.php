@@ -15,6 +15,8 @@ return new class extends Migration
     {
         Schema::create('transaksi_menus', function (Blueprint $table) {
             $table->id();
+            $table->ForeignId('booking_id');
+            $table->ForeignId('menu_id');
             $table->timestamps();
         });
     }
