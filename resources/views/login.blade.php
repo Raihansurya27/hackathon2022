@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>Login</title>
+    <title>Masuk</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link href="style.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
                         <a href="{{ url('/') }}"><img src="/img/logo2.png" width="110px"></a>
                     </div>
                     <div class="text-center mb-4 mt-3">
-                        <h2>LOG IN</h2>
+                        <h2>Masuk</h2>
                     </div>
                     <!-- Form -->
                     <form action="{{ url('login') }}" method="POST" role="form" class=" form-khusus"

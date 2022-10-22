@@ -350,7 +350,7 @@
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
                             <h4>Lokasi:</h4>
-                            <p>2 x 11 Kayutanam, Padang Pariaman, Sumatera Barat</p>
+                            <p>Pasar Baru, Padang Pariaman, Sumatera Barat</p>
                         </div>
 
                         <div class="open-hours">
@@ -365,7 +365,7 @@
                         <div class="email">
                             <i class="bi bi-envelope"></i>
                             <h4>Email:</h4>
-                            <p>raihansurya4000@gmail.com</p>
+                            <p>butterFly4@gmail.com</p>
                         </div>
 
                         <div class="phone">

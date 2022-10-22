@@ -82,17 +82,17 @@
 
                     <div class="text-center">
                         <div class="footer-info">
-                            <h3>Restoran Istimewa</h3>
+                            <h3>Rumah Makan Kito Basamo</h3>
                             <p>
-                                2 x 11 Kayutanam <br>
-                                Padang Pariaman, Sumatera Barat<br><br>
+                                Pasar Baru <br>
+                                Padang, Sumatera Barat<br><br>
                                 <strong>Kontak:</strong> +1 5589 55488 554<br>
-                                <strong>Email:</strong> raihansurya4000@gmail.com<br>
+                                <strong>Email:</strong> butterFly4@gmail.com<br>
                             </p>
                             <div class="social-links mt-3">
-                                {{-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                                <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a> --}}
-                                <a href="https://www.instagram.com/suryarehan9/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                                <a href="htttps://www.twitter.com" class="twitter"><i class="bx bxl-twitter"></i></a>
+                                <a href="https://www.facebook.com" class="facebook"><i class="bx bxl-facebook"></i></a>
+                                <a href="https://www.instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
                             </div>
                         </div>
                     </div>
@@ -102,10 +102,7 @@
 
         <div class="container">
             <div class="copyright">
-                &copy; Copyright <strong><span>Restoran Istimewa</span></strong>. All Rights Reserved
-            </div>
-            <div class="credits">
-                Desain oleh <a href="https://bootstrapmade.com/">BootstrapMade</a>, Diedit oleh Muhammad Raihan surya
+                &copy; Copyright <strong><span>Rumah Makan Kito Basamo</span></strong>. All Rights Reserved
             </div>
         </div>
     </footer><!-- End Footer -->
