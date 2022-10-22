@@ -20,7 +20,7 @@
 		<div class="row ">
 			<!-- IMAGE CONTAINER BEGIN -->
 			<div class="col-lg-6 col-md-6 d-flex justify-content-center d-md-block infinity-image-container">
-				<img src="/img/logo3.jpg" height="100%"  >
+				<img src="/img/logo3.png" height="100%"  >
 			</div>
 			<!-- IMAGE CONTAINER END -->
 
@@ -29,10 +29,10 @@
 				<div class="col-lg-9 col-md-12 col-sm-9 col-xs-12 infinity-form">
 					<!-- Company Logo -->
 					<div class="text-center mb-3 mt-5">
-						<img src="/img/logo2.png" width="110px">
+						<a href="{{url('/')}}"><img src="/img/logo2.png" width="110px"></a>
 					</div>
 					<div class="text-center mb-4 mt-3">
-			      <h2>Login</h2>
+			      <h2>LOG IN</h2>
 			    </div>
 			    <!-- Form -->
                 <form action="{{url('login')}}" method="POST" role="form" class=" form-khusus" data-aos="fade-up" enctype="multipart/form-data" data-aos-delay="100">
