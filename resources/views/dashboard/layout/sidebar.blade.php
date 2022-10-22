@@ -61,12 +61,7 @@
               Booking
             </a>
         </li>
-        <li class="nav-item">
-            <a class="nav-link {{Request::is('home') ? 'active' : ''}}" href="{{url('home')}}">
-              <span data-feather="home"></span>
-              Home
-            </a>
-        </li>
+
       </ul>
     </div>
   </nav>
