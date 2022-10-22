@@ -15,6 +15,7 @@ return new class extends Migration
     {
         Schema::create('transaksis', function (Blueprint $table) {
             $table->id();
+            $table->ForeignId('booking_id');
             $table->timestamps();
         });
     }
