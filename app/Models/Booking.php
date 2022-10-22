@@ -13,4 +13,8 @@ class Booking extends Model
     public function user(){
         return $this->belongsTo(User::class);
     }
+
+    public function acara(){
+        return $this->belongsTo(Acara::class);
+    }
 }
