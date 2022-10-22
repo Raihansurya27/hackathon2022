@@ -1,8 +1,8 @@
 @extends('dashboard.layout.main')
 
 @section('container')
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-    <h1 class="h2">Data Jurusan</h1>
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
+    <h1 class="h2">Tipe Menu</h1>
 </div>
     @if (session()->has('pesan'))
         <div class="alert alert-success" role="alert">
@@ -13,7 +13,7 @@
     <p>
         <a href="{{url('/tipe/create')}}" class=" btn btn-primary">Tambah Tipe Menu Baru</a>
     </p>
-    <table class=" table table-borderless">
+    <table class=" table table-bordered">
         <thead class="table-dark">
             <tr>
                 <th>No.</th>

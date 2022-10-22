@@ -1,7 +1,7 @@
 @extends('dashboard.layout.main')
 
 @section('container')
-<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 ">
     <h1 class="h2">Data Acara/Event</h1>
 </div>
     @if (session()->has('pesan'))
@@ -13,7 +13,7 @@
     <p>
         <a href="{{url('/acara/create')}}" class=" btn btn-primary">Tambah Acara\Event Baru</a>
     </p>
-    <table class=" table table-borderless">
+    <table class=" table table-bordered">
         <thead class=" table-dark">
             <tr>
                 <th>No.</th>
