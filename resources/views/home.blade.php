@@ -349,7 +349,7 @@
                         <div class="address">
                             <i class="bi bi-geo-alt"></i>
                             <h4>Lokasi:</h4>
-                            <p>Pasar Baru, Padang Pariaman, Sumatera Barat</p>
+                            <p>Pasar Baru, Padang, Sumatera Barat</p>
                         </div>
 
                         <div class="open-hours">
