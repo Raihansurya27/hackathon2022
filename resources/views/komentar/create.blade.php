@@ -25,15 +25,6 @@
 
                 <form action="{{url('/komens')}}" method="post" role="form" class=" form-khusus" data-aos="fade-up" data-aos-delay="100" enctype="multipart/form-data">
                     @csrf
-                    <div class="row">
-                        <div class="col-lg-12 col-md-12 form-group">
-                            <input type="text" class="form-control @error('ket')is-invalid
-                            @enderror" name="ket" id="ket" placeholder="Status Anda (ex: pekerjaan)" value="{{old('ket')}}">
-                            @error('ket')
-                                {{$message}}
-                            @enderror
-                        </div>
-                    </div>
                     <div class="form-group mt-3">
                         <textarea class="form-control @error('isi')is-invalid
                         @enderror" name="isi" rows="5" placeholder="Isi komentar/Testimoni">{{old('isi')}}</textarea>

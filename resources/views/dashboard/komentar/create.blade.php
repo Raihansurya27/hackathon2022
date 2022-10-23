@@ -9,16 +9,8 @@
             <form action="{{url('/komentar')}}" method="POST">
                 @csrf
                 <div class="mb-3">
-                    <label for="ket" class="form-label">Keterangan</label>
-                    <input type="text" class="form-control @error('ket')is-invalid
-                    @enderror" id="ket" placeholder="Contoh: Makanannya dan tempatnya enak" name="ket" value="{{old('ket')}}">
-                    @error('ket')
-                        {{$message}}
-                    @enderror
-                </div>
-                <div class="mb-3">
                     <label for="isi" class="form-label">Deskripsi Komentar</label>
-                    <textarea class="form-control ckeditor @error('isi')is-invalid
+                    <textarea class="form-control @error('isi')is-invalid
                     @enderror" id="isi" rows="3" name="isi">{{old('isi')}}</textarea>
                     @error('isi')
                         {{$message}}

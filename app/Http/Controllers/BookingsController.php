@@ -44,11 +44,11 @@ class BookingsController extends Controller
             'tanggal_booking'=>'required',
             'notelp'=>'required',
             'jumlah'=>'required',
-            'deskripsi'=>'required',
         ]);
+        $validatedData['deskripsi'] = $request->deskripsi;
         $validatedData['user_id'] = Auth::user()->id;
         Booking::create($validatedData);
-        return redirect('/home#book-a-table')->with('booking','Berhasil dibooking');
+        return redirect('/#book-a-table')->with('booking','Berhasil dibooking');
     }
 
     /**
@@ -86,11 +86,11 @@ class BookingsController extends Controller
             'tanggal_booking'=>'required',
             'notelp'=>'required',
             'jumlah'=>'required',
-            'deskripsi'=>'required',
         ]);
+        $validatedData['deskripsi'] = $request->deskripsi;
         $validatedData['user_id'] = Auth::user()->id;
         Booking::where('id',$id)->update($validatedData);
-        return redirect('/home#book-a-table')->with('booking','Booking berhasil diupdate');
+        return redirect('/#book-a-table')->with('booking','Booking berhasil diupdate');
     }
 
     /**

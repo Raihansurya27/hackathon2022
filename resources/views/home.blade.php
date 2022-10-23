@@ -243,7 +243,6 @@
                                     <button type="submit" class="btn text-center book-a-table-btn d-none d-lg-flex" onclick="return confirm('Yakin menghapus data ?')">Hapus</button>
                                 </form>
                                 <button class="btn text-center book-a-table-btn d-none d-lg-flex"><a href="{{url('bookings/'.$booking->id.'/edit')}}">Ubah</a></button>
-
                             </td>
                         </tr>
                     @empty

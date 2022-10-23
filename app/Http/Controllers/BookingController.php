@@ -42,12 +42,12 @@ class BookingController extends Controller
             'tanggal_booking'=>'required',
             'notelp'=>'required',
             'jumlah'=>'required',
-            'deskripsi'=>'required',
             'status'=>'required',
         ]);
+        $validatedData['deskripsi'] = $request->deskripsi;
         $validatedData['user_id'] = Auth::user()->id;
         Booking::create($validatedData);
-        return redirect('/booking')->with('pesan','Data berhasil ditambah');
+        return redirect('/booking')->with('pesan','Bookingan anda berhasil ditambah');
     }
 
     /**
@@ -85,12 +85,11 @@ class BookingController extends Controller
             'tanggal_booking'=>'required',
             'notelp'=>'required',
             'jumlah'=>'required',
-            'deskripsi'=>'required',
             'status'=>'required',
         ]);
         $validatedData['user_id'] = Auth::user()->id;
         Booking::where('id',$booking->id)->update($validatedData);
-        return redirect('/booking')->with('pesan','Data berhasil diupdate');
+        return redirect('/booking')->with('pesan','Bookingan anda berhasil diupdate');
     }
 
     /**
@@ -102,6 +101,6 @@ class BookingController extends Controller
     public function destroy(Booking $booking)
     {
         Booking::destroy($booking->id);
-        return redirect('/booking')->with('pesan','Data berhasil dihapus');
+        return redirect('/booking')->with('pesan','Bookingan anda berhasil dihapus');
     }
 }

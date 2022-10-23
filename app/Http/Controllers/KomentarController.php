@@ -38,12 +38,11 @@ class KomentarController extends Controller
     public function store(Request $request)
     {
         $validatedData=$request->validate([
-            'ket'=>'required|max:30',
             'isi'=>'required',
         ]);
         $validatedData['user_id'] = Auth::user()->id;
         Komentar::create($validatedData);
-        return redirect('/komentar')->with('pesan','Data berhasil ditambah');
+        return redirect('/komentar')->with('pesan','Komentar berhasil ditambah');
     }
 
     /**
@@ -78,12 +77,11 @@ class KomentarController extends Controller
     public function update(Request $request, Komentar $komentar)
     {
         $validatedData=$request->validate([
-            'ket'=>'required|max:30',
             'isi'=>'required',
         ]);
         $validatedData['user_id'] = Auth::user()->id;
         Komentar::where('id',$komentar->id)->update($validatedData);
-        return redirect('/komentar')->with('pesan','Data berhasil diupdate');
+        return redirect('/komentar')->with('pesan','Komentar berhasil diupdate');
     }
 
     /**
@@ -95,6 +93,6 @@ class KomentarController extends Controller
     public function destroy(Komentar $komentar)
     {
         Komentar::destroy($komentar->id);
-        return redirect('/komentar')->with('pesan','Data berhasil dihapus');
+        return redirect('/komentar')->with('pesan','Komentar berhasil dihapus');
     }
 }

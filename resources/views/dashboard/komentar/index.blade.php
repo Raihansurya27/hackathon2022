@@ -33,7 +33,6 @@
             <tr>
                 <th>No.</th>
                 <th>Nama User</th>
-                <th>Keterangan</th>
                 <th>Isi Komentar</th>
                 <th>Aksi</th>
             </tr>
