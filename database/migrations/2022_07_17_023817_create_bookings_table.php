@@ -20,7 +20,6 @@ return new class extends Migration
             $table->date('tanggal_booking');
             $table->integer('jumlah');
             $table->longText('deskripsi');
-            $table->ForeignId('acara_id');
             $table->string('status')->default('dibooking');
             $table->timestamps();
         });
