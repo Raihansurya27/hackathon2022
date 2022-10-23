@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-lg-8">
                 <h1>Selamat Datang di <span>Rumah Makan Kito Basamo</span></h1>
-                <h2>Telah menyajikan makanan dan acara yang luar biasa selama 20 tahun lebih!</h2>
+                <h2>Telah menyajikan makanan selama 20 tahun lebih!</h2>
 
                 <div class="btns">
                     <a href="#menu" class="btn-menu animated fadeInUp scrollto">Menu Kami</a>
@@ -29,13 +29,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
-                    <h3>Restoran indah dan mewah.</h3>
+                    <h3>Rumah makan yang indah dan sederhana.</h3>
                     <p class="fst-italic">
-                        Didirikan pada tahun 2020. mengapa anda harus memilih restoran ini? Karena
+                        Didirikan pada tahun 1987. mengapa anda harus memilih rumah makan? Karena
                     </p>
                     <ul>
-                        <li><i class="bi bi-check-circle"></i> Berlokasi ditempat stategis.</li>
-                        <li><i class="bi bi-check-circle"></i> Dibuat oleh koki hebat.</li>
+                        <li><i class="bi bi-check-circle"></i> Berlokasi ditempat stategis dan mudah dijangkau.</li>
+                        <li><i class="bi bi-check-circle"></i> Harga yang murah.</li>
                         <li><i class="bi bi-check-circle"></i> Dengan bahan lokal yang terbaik.</li>
                     </ul>
                 </div>
@@ -96,7 +96,7 @@
     </section><!-- End Menu Section -->
 
     <!-- ======= Specials Section ======= -->
-    <section id="specials" class="specials">
+    {{-- <section id="specials" class="specials">
         <div class="container">
 
             <div class="section-title">
@@ -155,10 +155,10 @@
                     </div>
                 </div>
         </div>
-    </section><!-- End Specials Section -->
+    </section><!-- End Specials Section --> --}}
 
     <!-- ======= Events Section ======= -->
-    <section id="events" class="events">
+    {{-- <section id="events" class="events">
         <div class="container">
 
             <div class="section-title">
@@ -199,7 +199,7 @@
                 <div class="swiper-pagination"></div>
             </div>
         </div>
-    </section><!-- End Events Section -->
+    </section><!-- End Events Section --> --}}
 
     <!-- ======= Book A Table Section ======= -->
     <section id="book-a-table" class="book-a-table">

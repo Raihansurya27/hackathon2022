@@ -11,8 +11,8 @@
                 <li><a class="nav-link scrollto" href="{{url('/')}}">Beranda</a></li>
                 <li><a class="nav-link scrollto" href="{{url('/#about')}}">Tentang</a></li>
                 <li><a class="nav-link scrollto" href="{{url('/#menu')}}">Menu</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/#specials')}}">Staff</a></li>
-                <li><a class="nav-link scrollto" href="{{url('/#events')}}">Acara</a></li>
+                {{-- <li><a class="nav-link scrollto" href="{{url('/#specials')}}">Staff</a></li> --}}
+                {{-- <li><a class="nav-link scrollto" href="{{url('/#events')}}">Acara</a></li> --}}
                 <li><a class="nav-link scrollto" href="{{url('/#testimonials')}}">Testimoni</a></li>
                 <li><a class="nav-link scrollto" href="{{url('/#book-a-table')}}">Booking Meja</a></li>
                 <li><a class="nav-link scrollto" href="{{url('/#contact')}}">Kontak</a></li>

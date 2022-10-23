@@ -52,10 +52,11 @@
                     @auth
                     <li class="d-flex align-items-center">Hai, {{ auth()->user()->name }}</li>
                     @empty(auth()->user()->picture)
-                    <img src="{{asset('img/noprofile.png')}}" alt="{{auth()->user()->name}}" class="d-flex justify-content-center" style="width: 30px; height: 30px;">
+                    <img src="{{asset('img/noprofile.png')}}" alt="{{auth()->user()->name}}" class="d-flex justify-content-center mt-1 rounded-circle" style="width: 30px; height: 30px; margin-left: 10px; margin-right: 10px"">
                     @else
-                    <img src="{{asset('img/profil/'.auth()->user()->picture)}}" alt="{{auth()->user()->name}}" class="d-flex justify-content-center" style="width: 30px; height: 30px;">
+                    <img src="{{asset('img/profil/'.auth()->user()->picture)}}" alt="{{auth()->user()->name}}" class="d-flex justify-content-center mt-1 rounded-circle" style="width: 30px; height: 30px; margin-left: 10px; margin-right: 10px">
                     @endempty
+                    <li class="d-flex align-items-center">|</li>
                     <form action="{{url('/logout')}}" method="POST">
                         @csrf
                         <button class="btn btn-dark">Logout</button>

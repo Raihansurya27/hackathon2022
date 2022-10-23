@@ -37,7 +37,7 @@
                 </div>
                 <div class="mb-3">
                     <label for="deskripsi" class="form-label">Deskripsi Menu</label>
-                    <textarea class="form-control ckeditor @error('deskripsi')is-invalid
+                    <textarea class="form-control @error('deskripsi')is-invalid
                     @enderror" id="deskripsi" rows="3" name="deskripsi">{{old('deskripsi')}}</textarea>
                     @error('deskripsi')
                         {{$message}}
